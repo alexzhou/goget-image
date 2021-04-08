@@ -7,7 +7,7 @@ import (
 import "fmt"
 
 // 定义命令行参数对应的变量，这三个变量都是指针类型
-var cliDir = flag.String("o", "./", "Input dir for saving images,default is the command dir")
+var cliDir = flag.String("out", "./", "Input dir for saving images,default is the command dir")
 var cliUrl = flag.String("url", "", "Input the web page url")
 
 // 定义一个值类型的命令行参数变量，在 Init() 函数中对其初始化
