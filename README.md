@@ -14,7 +14,7 @@ Usage:
 ```text
 Usage of goget-image:
   -out string
-        Input dir for saving images,default is the command dir (default "./")
+        Input dir for ,saving imagesdefault is the command dir (default "./")
   -url string
         Input the web page url
 
